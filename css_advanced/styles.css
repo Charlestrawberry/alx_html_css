@@ -22,6 +22,14 @@ main {
   padding: 20px 50px;
   background: transparent;
 }
+.logo {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+.logo span {
+  margin-top: 8px;
+}
 
 /* .header .logo img {
   width: 150px;
@@ -57,7 +65,8 @@ main {
 }
 
 .hero h1 {
-  font-size: 6rem;
+  font-size: 4rem;
+  margin-top: 110px;
   margin-bottom: 10px;
   font-weight: bold;
 }
@@ -69,10 +78,11 @@ main {
 }
 
 .hero .cta {
-  background-color: #ff66cc;
+  background-color: #c271ff;
   color: white;
   padding: 15px 30px;
   font-size: 1.2rem;
+  font-weight: bold;
   border: none;
   border-radius: 25px;
   cursor: pointer;
@@ -91,10 +101,13 @@ main {
 }
 
 .testimonials h2 {
-  color: #ff66cc;
-  font-size: 2rem;
+  color: #fff;
+  font-size: 1.5rem;
   margin-top: 80px;
   margin-bottom: 20px;
+}
+.testimonials span {
+  color: #c271ff;
 }
 
 .testimonials .profiles {
@@ -203,6 +216,7 @@ main {
 .tuts-card h3 {
   font-size: 1rem;
   color: #333;
+  text-align: left;
   margin-bottom: 5px;
 }
 .tuts-card p {
@@ -210,7 +224,12 @@ main {
   color: #777;
   margin-bottom: 16px;
 }
-
+.tuts-card .content p {
+  overflow-wrap: break-word;
+}
+.tuts-card img {
+  margin-right: 160px;
+}
 .author img {
   border-radius: 50%;
   height: 24px;
@@ -219,35 +238,27 @@ main {
 }
 
 .tuts-card .details .author {
+  color: #c271ff;
+
   display: flex;
-  align-items: center;
-  gap: 8px;
-  display: flex;
-  align-items: center;
 }
 
-.tuts-card .author img span {
-  text-align: center;
-  justify-content: center;
-  font-size: 0.75rem;
+.tuts-card .author span {
+  margin-right: 80px;
 }
 
 .rating {
   display: flex;
+  color: #c271ff;
   margin-top: 20px;
   font-size: 0.65rem;
-  gap: 5px;
-  justify-content: space-between;
+  /* gap: 5px; */
+  /* justify-content: space-between; */
 }
-/* display: flex;
-  margin-top: 20px;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-}*/
+
 .duration {
   text-align: center;
-  justify-content: center;
+  justify-content: space-between;
   font-size: 0.75rem;
 }
 
@@ -265,7 +276,7 @@ main {
   margin-bottom: 30px;
 }
 .memb-section h2 span {
-  color: #e055b3;
+  color: #c271ff;
 }
 
 .memb-container {
@@ -289,7 +300,7 @@ main {
 }
 
 .cta-button {
-  background-color: #d794f1;
+  background-color: #c271ff;
   color: #fff;
   padding: 12px 20px;
   border-radius: 60px;
@@ -307,7 +318,7 @@ main {
 
 .faq-section {
   background-color: #ffffff; /* White background */
-  padding: 50px 20px;
+  padding: 50px 180px;
   color: #615d5d;
   font-family: "Arial", sans-serif;
 }
@@ -325,24 +336,25 @@ main {
   align-items: center;
 }
 
-.faq-items {
+.faq-item {
   margin-bottom: 30px;
 }
 
-.faq-items h3 {
-  color: #333;
+.faq-item h3 {
+  color: #020202;
 }
 
-.faq-items p {
+.faq-item p {
   font-size: 1.2rem;
   color: #615d5d;
   line-height: 1.4;
+  text-align: justify;
+  align-items: center;
 }
 
 .footer {
   background-color: #1a1a2e;
   text-align: center;
-
   padding: 30px 20px;
 }
 
@@ -352,6 +364,9 @@ footer .footer-item {
   padding: 30px 30px;
 }
 
+.footer-img span {
+  font-weight: bold;
+}
 .footer-section p {
   color: #615d5d;
   font-size: 0.86rem;
@@ -361,7 +376,7 @@ footer .footer-item {
   color: #ccc2c2;
   display: flex;
   gap: 10px;
-  font-size: 0, 75rem;
+  font-size: 0.75rem;
 }
 @media (max-width: 768px) {
   .faq-container .footer-item {

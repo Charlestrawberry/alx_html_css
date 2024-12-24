@@ -74,3 +74,5 @@ This project is open-source and available under the [MIT License](LICENSE). Feel
 
 ---
 Happy coding! 😒
+![part_2_tutorials](https://github.com/user-attachments/assets/7dda069e-e142-40e6-9155-5f21637f0345)
+

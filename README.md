@@ -49,7 +49,8 @@ Follow the instructions below to set up the project locally:
 Preview
 Here is a quick look at the final design:
 
-[Preview](assets/preview.png)
+![main_part](https://github.com/user-attachments/assets/db28f10c-20e3-445e-9d5d-632824134181)
+
 
 Contributing
 Contributions are welcome! If you'd like to make improvements, please follow these steps:
